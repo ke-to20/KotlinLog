@@ -16,9 +16,15 @@ class MainActivity() : AppCompatActivity(){
 //        val dog = Dog("ポチ", 3)      // 名前をポチ、年齢3歳で、Dogのインスタンスを作る
 //        dog.move()
 
-        val human = Human("~~", 20, "~~")
+        val human = Human("太郎", 20, "カメラ")
         human.say()
         human.think()
+
+        val human1 = Human("次郎", 21, "映画鑑賞")
+        human1.say()
+        human1.think()
+
+
 
     }
 
